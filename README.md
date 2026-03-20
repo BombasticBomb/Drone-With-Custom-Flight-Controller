@@ -8,13 +8,19 @@ This is my hack club project to build a medical from scratch with a custom IMU w
  <img width="1270" height="580" alt="image" src="https://github.com/user-attachments/assets/6970f5e0-acf0-4829-80f5-556754bd7835" />
 
 
- BOM:
- Name,Purpose,Cost Per Item (USD),Quantity,Total (USD),Link,Distributor
-"8x4.5 Inch RC Drone Propellers","These will be used on the brushless motors to provide lift for the drone. I am buying 8 pieces instead of 4 in case some breaks during testing.",10.79,1,10.79,"https://www.amazon.com/gp/product/B07YYV2JL4/ref=ox_sc_act_title_6?smid=A1THAZDOWP300U&psc=1","Amazon"
-"Zeee 3S 5200mAh 50C Li-po battery","This will be used to power the drone in its flight time.",31.49,1,31.49,"https://www.amazon.com/gp/product/B0972RKJDS/ref=ox_sc_act_title_1?smid=A646DVGSXYMNH&psc=1","Amazon"
-"3S Li-po Battery Charger","This will be used to charge the battery for the drone.",16.99,1,16.99,"https://www.amazon.com/gp/product/B0FPDJP4GK/ref=ox_sc_act_title_4?smid=A3OUEA3BPILM2W&psc=1","Amazon"
-"FLYSKY FS-i6 6Channel 2.4GHz AFHDS2A RC Transmitter & Reciever","This will be used for the radio communication with the drone.",49.65,1,49.65,"https://www.amazon.com/gp/product/B07CXL9LCT/ref=ox_sc_act_title_1?smid=A3FG05GA5NMSJ&th=1","Amazon"
-"30A Brushless Motor ESC","This will be the Electronic Speec Controller for the 4 brushless motors on the drone. Please buy 2 pieces for a total of 4 for each motor.",17.59,2,35.18,"https://www.amazon.com/gp/product/B0CZNM4H7H/ref=ox_sc_act_title_6?smid=A3SITFGXOINFFJ&th=1","Amazon"
-"WWZMDiB SG90 Micro Servo Motor","The servo motor will be used to grab and drop the medication package.",6.99,1,6.99,"http://amazon.com/gp/product/B0BKPL2Y21/ref=ox_sc_act_title_2?smid=A1YZW40LYQY3L1&th=1","Amazon"
-"4 PCS QWinOut A2212 1400KV Brushless Motors","These will be the motors that generate lift for the drone. While buying, please choose the 4PCS option on Amazon.",32.88,1,32.88,"https://www.amazon.com/gp/product/B07VSD2HSF/ref=ox_sc_act_title_1?smid=A3BO1Y2JPVIMK4&th=1","Amazon"
+ Parts that I used to build the Quadcopter!
+## Bill of Materials (BOM)
 
+| Part | Quantity | Price (USD) | Link |
+|------|----------|-------------|------|
+| 1400KV Brushless Motors | 4 | $8.35 each | https://www.robotshop.com/products/e-s-motor-xxd-a2212-brushless-motor-160w-mounting-base-kits-kv-1400?qd=f82c3b340c3f619c5c40ab447d536a69 |
+| Raspberry Pi 4 (4GB) | 1 | $0.00 | https://www.centralcomputer.com/raspberry-pi-4-model-b-rpi4-modbp-4gb-4gb-ddr4-ram-bcm2711-soc-usb-3-0-poe-enabled.html |
+| Arduino UNO R3 | 1 | $0.00 | https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6 |
+| GY-91 IMU (MPU-9250 + BMP180) | 1 | $8.79 | https://www.amazon.com/gp/product/B0CMQSYR2Y |
+| 8x4.5 Inch Drone Propellers (Set) | 1 | $10.79 | https://www.amazon.com/gp/product/B07YYV2JL4 |
+| Zeee 3S 5200mAh LiPo Battery | 1 | $31.49 | https://www.amazon.com/gp/product/B0972RKJDS |
+| 3S LiPo Battery Charger | 1 | $16.99 | https://www.amazon.com/gp/product/B0FPDJP4GK |
+| FlySky FS-i6 Transmitter & Receiver | 1 | $49.65 | https://www.amazon.com/gp/product/B07CXL9LCT |
+| 30A Brushless ESC | 2 (pack of 2) | $17.59 each | https://www.amazon.com/gp/product/B0CZNM4H7H |
+
+**Estimated Total Cost:** ~$186.29
