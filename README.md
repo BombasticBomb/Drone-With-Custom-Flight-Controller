@@ -41,10 +41,10 @@ Unlike most hobbyist drones that rely on prebuilt flight controller firmware (Be
 |   | **Arduino**   | → | **ESC** |
 |   | 5V            | → | 5V      |
 |   | GND           | → | GND     |
-|   | D3            | → | ESC1    |
-|   | D4            | → | ESC2    |
-|   | D5            | → | ESC3    |
-|   | D6            | → | ESC4    |
+|   | 3            | → | ESC1    |
+|   | 4            | → | ESC2    |
+|   | 5            | → | ESC3    |
+|   | 6            | → | ESC4    |
 
 
 
