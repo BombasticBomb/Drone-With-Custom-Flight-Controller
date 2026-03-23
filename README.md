@@ -1,12 +1,15 @@
 # Custom-Drone
 <img width="1089" height="632" alt="model" src="https://github.com/user-attachments/assets/bb9c271a-90ce-41d8-b988-920256057338" />
 
-This is my hack club project to build a medical from scratch with a custom IMU with Arduino &amp; MPU9250. It's my attempt to build a my own custom flight controller as well as PID stabilization as part of this drone project.
+This is my hack club project to build a quadcopter from scratch with a custom IMU with Arduino &amp; MPU9250. Growing up, I'd watch many science and engineering videos online; I've always been a science kid who spends his time watching astronomy, engineering, etc type videos. And, I've seen many people make videos about making drones, and I'd dream but I'll tell myself - "They're on another level, I cannot reach that yet". I believe in 2026, in my 9th-grade year, I have the capability and passion to pull it off now. I present my first attempt to build my own custom flight controller as well as PID stabilization, as part of this drone project.
 <img width="1001" height="719" alt="image" src="https://github.com/user-attachments/assets/24605bc7-c428-4ba1-9c08-294bb76b4471" />
 
  If looking for my 3D model to review and approve my project, please look in the releases section. Due to the large file size of the .step file when extracted from the original STL file, it had to be uploaded to releases.
  <img width="1270" height="580" alt="image" src="https://github.com/user-attachments/assets/6970f5e0-acf0-4829-80f5-556754bd7835" />
 
+ ## What Makes This Project Unique
+Unlike most hobbyist drones that rely on prebuilt flight controller firmware (Betaflight), my project implements a fully custom flight controller using Arduino & mpu9250 that I had to research to actually learn how it works, and I am working on developing it into a fully functioning firmware. Along with that, I am utilizing a novel method to stream video transmission using a USB camera and the Raspberry Pi using a Python script that uses OpenCV to play video on a web dashboard hosted in Flask and streamed with Flask-socketio.
+**Note: The utilization of onboard wifi on the Raspberry Pi does mean the video transmission range is limited, and beyond that range, we have to rely solely on radio.
 
 ## 📦 Bill of Materials
 
