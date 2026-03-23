@@ -1,3 +1,10 @@
+// NOTE:
+// This is early-stage development of the flight controller.
+// Due to lack of physical hardware testing, motor control and PID tuning
+// are not finalized yet. Current functionality just focuses on sensor fusion from a mpu6050 which I own for testing purposes, and will switch to a mpu9250 when I get to buy the actual sensor.
+// It's the concept and engineering method that is being laid down right now, and it may change or be reimplemented as I build the drone.
+
+
 #include <SPI.h>
 #include <Wire.h>
 #include <MPU6050.h>
