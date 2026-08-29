@@ -2,6 +2,7 @@
 Arduino + MPU9250 based Flight Controller for Quadcopter!
 This project is a custom-built quadcopter drone that uses an Arduino flight controller with an MPU9250 IMU. Will use a flight controller written in Arduino C++ with a cascaded PID loop for stabilization!
 Hack Club Project (Approved): https://stardance.hackclub.com/projects/21695
+Build Journal Log Link: https://github.com/BombasticBomb/Custom-Flight-Controller-Quadcopter-With-RaspberryPI-Cam/blob/main/JOURNAL.md
 
 ## 3D Model
 <img width="1919" height="986" alt="image" src="https://github.com/user-attachments/assets/a7b5251b-2084-4a02-9a17-2759021b69b5" />
